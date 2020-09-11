@@ -1,0 +1,79 @@
+/* #training-details {
+    background: linear-gradient(89.72deg,#8360C3 .09%,#2EBF91 99.92%);
+    background-image: linear-gradient(89.72deg, rgb(131, 96, 195) 0.09%, rgb(46, 191, 145) 99.92%);
+        /* background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial; */
+/*} */
+
+/* #training-details {
+    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 37%, rgba(32,124,229,1) 81%, rgba(32,124,229,1) 89%);
+} */
+
+
+#training-details .training-course img {
+    border: 3px solid white;
+}
+
+
+
+#training-details .card-header {
+    padding: 0.2rem;
+}
+
+#training-details .master-rate {
+    color: #dde6ed;
+    font-size: 14px;
+    margin-top: 24px;
+}
+
+#training-details .master-rate span {
+    vertical-align: middle;
+}
+#training-details .master-label {
+    display: none;
+}
+
+#training-details .rating {
+    display: inline-block;
+}
+
+#training-details #LearnerSection {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#training-details #LearnerSection a {
+    color: #dde6ed;
+}
+
+#training-details .stars, #training-details .star_in {
+    width: 82px;
+    display: inline-block;
+    height: 18px;
+    background: url(../images/master_sprite.svgz) no-repeat;
+    background-position: -99px -18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#training-details .master-rate .star_in {
+    vertical-align: top;
+    width: 42px;
+}
+
+#training-details .star_in {
+    background-position: -99px -42px;
+    margin-right: 0;
+}
+
+
+
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Home</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="./css/carousel.css"> -->
+        <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+              width: 100%;
+              height: 100%;
+            }
+            hr {
+                background:dimgray;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img class="image-fluid" src="./images/Teknyfy.svg" alt="" style="border-radius: 50%; width:38px;padding: 0px;">
+            <!-- <i class="fa fa-facebook-square" style="font-size:30px;color:white"></i> -->
+            <!-- <img src=".\assets\bootstrap-icons-1.0.0\bootstrap-fill.svg" width="30" height="30" alt="" style="color:red;"> -->
+            Technyfy</a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+        </nav>
+
+        <div class="container mt-3">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/slide-1.jpg" alt="Los Angeles" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                          </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide-2.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                          </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide-3.jpg" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Los Angeles</h3>
+                            <p>We had such a great time in LA!</p>
+                          </div>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        
+
+        <div class="container">
+            <br/>
+            <br/>
+            <h2 class="text-center">Trainings</h2>
+            <hr/>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card mb-3">
+                        <h3 class="card-header">Training 1</h3>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                        </div>
+                        <img class="img-fluid" style="height: 200px; width: 100%; display: block;" src="./images/slide-2.jpg" alt="Card image">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul> -->
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          2 days ago
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card mb-3">
+                        <h3 class="card-header">Training 2</h3>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                        </div>
+                        <img style="height: 200px; width: 100%; display: block;" src="./images/slide-2.jpg" alt="Card image">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul> -->
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          2 days ago
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card mb-3 <div class="col-md-4 col-sm-12 col-xs-12">
+                        <h3 class="card-header">Training 3</h3>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                        </div>
+                        <img style="height: 200px; width: 100%; display: block;" src="./images/slide-2.jpg" alt="Card image">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <!-- <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                          <li class="list-group-item">Vestibulum at eros</li>
+                        </ul> -->
+                        <div class="card-body">
+                          <a href="#" class="card-link">Card link</a>
+                          <a href="#" class="card-link">Another link</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          2 days ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+                    <div class="card card-inverse card-primary text-center">
+                        <img class="card-img-top" src="./images/slide-1.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">This is Card #1</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+                    <div class="card card-inverse card-primary text-center">
+                        <img class="card-img-top" src="./images/slide-1.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">This is Card #2</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+                    <div class="card card-inverse card-success text-center">
+                        <img class="card-img-top" src="./images/slide-1.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">This is Card #3</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg 3 col-md-3  col-sm-12 col-xs-12">
+                    <div class="card card-inverse card-info text-center">
+                        <img class="card-img-top" src="./images/slide-1.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">This is Card #4</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="http://v4-alpha.getbootstrap.com/components/card/" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <br/>
+            <br/>
+            <h2 class="text-center">Testimonials</h2>
+            <hr/>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer text-success text-center">
+                        Reach us at <strong>teknyfy@gmail.com</strong> Phone: 8297757146, 9951441241.
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+    </body>
+</html>
