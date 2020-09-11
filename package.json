@@ -1,0 +1,21 @@
+{
+  "name": "teknyfytrial",
+  "version": "1.0.0",
+  "description": "teknyfy trail html and css",
+  "main": "Home.html",
+  "scripts": {
+    "test": "home.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "learncss"
+  },
+  "keywords": [
+    "teknyfy"
+  ],
+  "author": "vishwanath",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}
